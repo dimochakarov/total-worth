@@ -1,0 +1,13 @@
+
+span {
+    font-size: 30px;
+    
+}
+
+footer {
+    border-top: 1px solid black;
+}
+
+footer p {
+    margin-top: 20px;
+}

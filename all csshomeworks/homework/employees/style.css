@@ -1,0 +1,21 @@
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2}
+table {
+    width: 100%;
+}
+
+
+th {
+    height: 6px;
+}
+
+td > img {
+    padding-right: 15px;}
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    
+}

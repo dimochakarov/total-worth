@@ -1,0 +1,32 @@
+ul {
+    
+   list-style: none;
+    flex-basis: auto;
+    width: 200px;
+      color: #FEFAF6;
+    text-decoration-line: none;
+}
+
+
+li a {
+    display: block;
+    color: #FEFAF6;
+    padding: 8px 16px;
+    font-size: 1.5em
+    
+}
+
+
+body {
+    background: #898683;
+}
+
+h1 {
+    text-align: center;
+    color: #FEFAF6;
+}
+
+
+nav {
+    margin-left: 32%
+}

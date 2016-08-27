@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Javascript Worship</title>
+    </head>
+    <body>
+        <canvas id="JSWorship" width="320" height="360"></canvas>
+        <script>
+            var canvas = document.getElementById('JSWorship');
+            canvas.width = 420;
+            canvas.height = 455;
+            var c = canvas.getContext('2d');
+            c.beginPath();
+            c.setLineDash([5]);
+            c.strokeStyle = 'red';
+            c.rect(0, 0, 320, 360);
+            c.lineWidth = 10;
+            c.stroke();
+            c.beginPath();
+            c.fillStyle = "black";
+            c.font = "30px Tahoma";
+            c.fillText("I love JavaScript", 40, 60);
+            c.beginPath();
+            c.fillStyle = "rgb(241, 218, 78)";
+            c.fillRect(80, 100, 180, 170);
+            c.beginPath();
+            c.fillStyle = "rgb(50, 52, 47)";
+            c.font = "bolder 130px Arial";
+            c.fillText("JS", 90, 220);
+        </script>
+    </body>
+</html>

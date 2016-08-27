@@ -1,0 +1,56 @@
+.button3 {background-color: #f44336;
+margin-top: 13px;
+border-radius: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li  {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left: 50px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.main-content {
+     background-color: #333;
+}
+
+.main {
+    margin-left: 2%;
+}
+
+h2 {
+   color: #FDE51E; 
+    font-weight: 200;
+}
+
+p {
+   color: #E8E7DD ;
+}
+
+.nav {
+    background: #0E0E0B;
+    border: 3px solid black;
+    border-radius: 15px;
+    
+}
+
+span {
+    color: #F0F070;
+}

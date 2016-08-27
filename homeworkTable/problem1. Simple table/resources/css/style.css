@@ -1,0 +1,13 @@
+td, th {
+
+    width: 150px;
+
+}
+th {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+
+
